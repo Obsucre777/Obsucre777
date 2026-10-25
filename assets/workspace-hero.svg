@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="326" viewBox="0 0 900 326" role="img" aria-label="kerwin — tools for focus, room for agency"><title>kerwin — tools for focus, room for agency</title><defs></defs>
+<rect width="900" height="326" rx="12" fill="#101a25"/>
+<path d="M545 0H900V326H545Z" fill="#142332"/>
+<path d="M545 0V326M0 276H900" fill="none" stroke="#2a3b4c"/>
+<rect x="34" y="30" width="4" height="16" rx="2" fill="#f4a580"/>
+<text x="49" y="43" font-family="Consolas,'Courier New',monospace" font-size="12" fill="#b4c4d4" letter-spacing="1">OBSUCRE777 / PERSONAL WORKSPACE</text>
+<text x="32" y="139" font-family="'Segoe UI',Arial,'Microsoft YaHei',sans-serif" font-size="88" fill="#f3f6fa" font-weight="750" letter-spacing="-4">kerwin</text>
+<text x="36" y="194" font-family="'Segoe UI',Arial,'Microsoft YaHei',sans-serif" font-size="28" fill="#dce7f0" font-weight="500" >Tools for focus.</text>
+<text x="36" y="231" font-family="'Segoe UI',Arial,'Microsoft YaHei',sans-serif" font-size="28" fill="#8fa8c1" font-weight="500" >Room for agency.</text>
+<g transform="translate(589 45)">
+ <path d="M12 17H62V192H12Z" fill="#7e9bbd"/>
+ <path d="M62 17H76V192H62Z" fill="#55718f"/>
+ <path d="M84 104 160 17H222L137 113Z" fill="#c2d6e9"/>
+ <path d="M137 113 222 192H157L84 122Z" fill="#f4a580"/>
+ <path d="M137 113 222 192V204L129 122Z" fill="#ad674e"/>
+ <path d="M12 192H76V204H24Z" fill="#405b76"/>
+ <path d="M84 104V122L137 113 129 122Z" fill="#d88967"/>
+ <circle cx="101" cy="113" r="5" fill="#101a25" stroke="#f7c1a7" stroke-width="2"/>
+ <path d="M-10 1H6M-2 -7V9M228 219H244M236 211V227" stroke="#59758f"/>
+ <path d="M2 218H211" stroke="#3f5972"/>
+ <text x="105" y="240" font-family="Consolas,'Courier New',monospace" font-size="10" fill="#8ba6bf" text-anchor="middle" letter-spacing="1.6">FOCUS / AGENCY</text>
+</g>
+<text x="36" y="307" font-family="Consolas,'Courier New',monospace" font-size="12" fill="#c1cfdb" >01  FOCUS TOOLS</text>
+<circle cx="239" cy="303" r="2" fill="#516b82"/>
+<text x="269" y="307" font-family="Consolas,'Courier New',monospace" font-size="12" fill="#c1cfdb" >02  AGENT SYSTEMS</text>
+<text x="862" y="307" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#91a6bb" text-anchor="end">THINK → BUILD → REFINE</text>
+</svg>
