@@ -24,7 +24,7 @@
 | **ROLE** | Software Engineer |
 | **BASE** | Earth · Solar System · Orion Arm |
 | **FOCUS** | AI Agents / Rust / Audio ML |
-| **LAUNCHES** | 12 public payloads since 2021 |
+| **LAUNCHES** | 13 public payloads since 2021 |
 
 ## ▚ LAUNCH VEHICLE
 
