@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="460" viewBox="0 0 880 460" role="img" aria-label="kerwin — mission profile">
+  <defs>
+    <radialGradient id="dawnL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ticksL" width="40" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 0V8" stroke="#e8e8e8" stroke-width="1"/>
+    </pattern>
+    <path id="orb1L" d="M 30 340 C 240 248, 640 248, 850 340" fill="none"/>
+  </defs>
+
+  <rect width="880" height="460" fill="#ffffff"/>
+
+  <rect x="0" y="0" width="880" height="8" fill="url(#ticksL)"/>
+  <rect x="0" y="452" width="880" height="8" fill="url(#ticksL)"/>
+
+  <!-- starfield (blueprint dots) -->
+  <g fill="#c4c4c4">
+    <circle cx="60" cy="52" r="0.8" opacity="0.6"/>
+    <circle cx="130" cy="94" r="1.0" opacity="0.7"/>
+    <circle cx="210" cy="42" r="1.2" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="184" r="0.9" opacity="0.5"/>
+    <circle cx="172" cy="142" r="1.1" opacity="0.65"/>
+    <circle cx="252" cy="224" r="0.8" opacity="0.55">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="322" cy="62" r="1.0" opacity="0.6"/>
+    <circle cx="412" cy="36" r="0.9" opacity="0.75">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="6s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="502" cy="56" r="1.1" opacity="0.6"/>
+    <circle cx="592" cy="46" r="0.8" opacity="0.5"/>
+    <circle cx="662" cy="92" r="1.2" opacity="0.85">
+      <animate attributeName="opacity" values="0.9;0.35;0.9" dur="4.5s" begin="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="734" cy="52" r="0.9" opacity="0.6"/>
+    <circle cx="802" cy="142" r="1.0" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.25;0.8" dur="6.5s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="842" cy="62" r="1.1" opacity="0.55"/>
+    <circle cx="762" cy="204" r="0.9" opacity="0.6"/>
+    <circle cx="682" cy="252" r="1.0" opacity="0.5"/>
+    <circle cx="562" cy="232" r="0.8" opacity="0.6"/>
+    <circle cx="472" cy="272" r="0.9" opacity="0.5"/>
+    <circle cx="382" cy="252" r="1.1" opacity="0.65"/>
+    <circle cx="302" cy="292" r="0.8" opacity="0.5"/>
+    <circle cx="102" cy="262" r="1.0" opacity="0.55"/>
+    <circle cx="822" cy="302" r="0.9" opacity="0.5"/>
+    <circle cx="42" cy="122" r="1.0" opacity="0.6"/>
+    <circle cx="868" cy="242" r="0.8" opacity="0.5"/>
+    <circle cx="622" cy="172" r="0.7" opacity="0.45"/>
+    <circle cx="202" cy="322" r="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- planet limb -->
+  <circle cx="440" cy="1500" r="1120" fill="none" stroke="#f0f0f0" stroke-width="1"/>
+  <circle cx="440" cy="1500" r="1108" fill="none" stroke="#e6e6e6" stroke-width="1"/>
+  <circle cx="440" cy="1500" r="1096" fill="#fbfbfb" stroke="#d0d0d0" stroke-width="1"/>
+  <ellipse cx="440" cy="404" rx="300" ry="30" fill="url(#dawnL)"/>
+
+  <!-- orbits -->
+  <ellipse cx="440" cy="470" rx="460" ry="120" fill="none" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2 10"/>
+  <use xlink:href="#orb1L" stroke="#cfcfcf" stroke-width="1" stroke-dasharray="2 8"/>
+
+  <!-- satellite -->
+  <g>
+    <circle r="2.2" fill="#555555"/>
+    <circle r="6" fill="none" stroke="#bbbbbb" stroke-width="0.7"/>
+    <animateMotion dur="48s" repeatCount="indefinite">
+      <mpath xlink:href="#orb1L"/>
+    </animateMotion>
+  </g>
+
+  <!-- wordmark -->
+  <text x="449" y="170" text-anchor="middle" fill="#111111"
+        font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif"
+        font-size="40" letter-spacing="18">KERWIN</text>
+  <line x1="350" y1="192" x2="530" y2="192" stroke="#cccccc" stroke-width="1"/>
+  <text x="443" y="216" text-anchor="middle" fill="#666666"
+        font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="6">SOFTWARE ENGINEER</text>
+
+  <!-- annotations -->
+  <text x="28" y="30" fill="#a0a0a0" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">FLIGHT LOG</text>
+  <text x="852" y="30" text-anchor="end" fill="#a0a0a0" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">REV. C</text>
+  <text x="28" y="440" fill="#a0a0a0" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">ALL SYSTEMS NOMINAL</text>
+  <text x="852" y="440" text-anchor="end" fill="#a0a0a0" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">28.5729° N / 80.6490° W</text>
+</svg>
