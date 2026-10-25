@@ -1,36 +1,30 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <img alt="kerwin — mission profile" src="assets/hero-light.svg">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/index-dark.svg">
+  <img src="assets/index-light.svg" width="100%" alt="kerwin — Ideas, reduced to working things.">
+</picture>
 
-building agents & audio systems — all systems nominal.
+<br>
 
-`Rust` · `Python` · `Java` · `TypeScript` · `C`
+做一些让注意力更集中、让 Agent 更自由的工具。
+
+## Selected work
+
+### [Workbar ↗](https://github.com/Obsucre777/WorkBar)
+
+永远置顶的任务条，把注意力收回到现在该做的事。内置 MCP，让 AI 直接参与日常计划。
+
+<sub>Rust · Tauri · MCP</sub>
+
+### [FreedomAgents ↗](https://github.com/Obsucre777/FreedomAgents)
+
+从 CLI 出发，探索跨 harness 的多 Agent 协作。
+
+<sub>JavaScript · Node.js · CLI &nbsp; / &nbsp; v0.0.1 · 开发中</sub>
+
+<br>
+
+[浏览全部仓库 →](https://github.com/Obsucre777?tab=repositories)
 
 ---
 
-## Selected Work
-
-[**WorkBar**](https://github.com/Obsucre777/WorkBar)\
-a 1.2 MB always-on-top bar that answers one question: *what now?*
-`RUST · TAURI · MCP`
-
-[**FreedomAgents**](https://github.com/Obsucre777/FreedomAgents)\
-a cross-harness multi-agent framework — agents belong to you, not the harness
-`CLI · MULTI-AGENT · OPEN SOURCE`
-
-[**Simul-Whisper**](https://github.com/Obsucre777/simul_whisper)\
-attention-guided streaming speech recognition with truncation detection
-`INTERSPEECH 2024 · PYTORCH`
-
----
-
-<pre>
-BASE ....... EARTH · SOLAR SYSTEM
-FOCUS ...... AGENTS · AUDIO ML
-FLIGHTS .... 13 PUBLIC PAYLOADS · EST. 2021
-</pre>
-
-<p align="right"><sub>28.5729° N / 80.6490° W</sub></p>
+<sub>Boil things down to the most fundamental truths and reason up from there.</sub>

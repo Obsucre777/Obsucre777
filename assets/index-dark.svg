@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="title desc">
+  <title id="title">kerwin — personal index</title>
+  <desc id="desc">Ideas, reduced to working things. Three lines converge into one, a study in reducing complexity.</desc>
+  <rect width="900" height="250" rx="5" fill="#151a1e"/>
+  <g fill="#a6aaa9" font-family="'Segoe UI',Arial,sans-serif" font-size="12" letter-spacing="2">
+    <text x="36" y="37">OBSUCRE777</text>
+    <text x="864" y="37" text-anchor="end">PERSONAL INDEX</text>
+  </g>
+  <text x="31" y="147" fill="#e9e7e0" font-family="Georgia,'Times New Roman',serif" font-size="100" letter-spacing="-5">kerwin<tspan fill="#df8d72">.</tspan></text>
+  <text x="36" y="197" fill="#a6aaa9" font-family="'Segoe UI',Arial,sans-serif" font-size="23" letter-spacing=".1">Ideas, reduced to working things.</text>
+  <g fill="none" stroke="#454d50" stroke-width="1.4">
+    <path d="M632 92 H660 C711 92 694 139 749 139"/>
+    <path d="M632 139 H749"/>
+    <path d="M632 186 H660 C711 186 694 139 749 139"/>
+  </g>
+  <g fill="#151a1e" stroke="#454d50" stroke-width="1.4">
+    <circle cx="632" cy="92" r="3"/>
+    <circle cx="632" cy="139" r="3"/>
+    <circle cx="632" cy="186" r="3"/>
+  </g>
+  <path d="M749 139 H845" stroke="#df8d72" stroke-width="2"/>
+  <circle cx="749" cy="139" r="4" fill="#df8d72"/>
+  <path d="m839 135 6 4-6 4" fill="none" stroke="#df8d72" stroke-width="1.5"/>
+</svg>
