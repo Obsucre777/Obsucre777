@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-label="mission banner">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#161616" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="240" fill="#050505"/>
+  <rect width="880" height="240" fill="url(#grid)"/>
+
+  <!-- viewfinder corners -->
+  <g stroke="#3f3f3f" stroke-width="2" fill="none">
+    <path d="M16 34V16H34"/>
+    <path d="M846 16H864V34"/>
+    <path d="M864 206V224H846"/>
+    <path d="M34 224H16V206"/>
+  </g>
+
+  <!-- ascent trajectory -->
+  <path d="M70 196 C 320 180, 560 130, 806 74" fill="none" stroke="#5a5a5a" stroke-width="1.5" stroke-dasharray="5 6"/>
+  <circle cx="806" cy="74" r="4" fill="#ffffff"/>
+
+  <!-- callsign -->
+  <text x="440" y="112" text-anchor="middle" fill="#ffffff"
+        font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-weight="bold"
+        font-size="44" letter-spacing="16">KERWIN</text>
+
+  <line x1="250" y1="132" x2="630" y2="132" stroke="#4a4a4a" stroke-width="1"/>
+
+  <text x="440" y="158" text-anchor="middle" fill="#9a9a9a"
+        font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5">SOFTWARE ENGINEER · EARTH, SOLAR SYSTEM</text>
+
+  <!-- frame annotations -->
+  <text x="26" y="36" fill="#5a5a5a" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="3">MISSION PROFILE</text>
+  <text x="854" y="36" text-anchor="end" fill="#5a5a5a" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="3">REV. 2026.10</text>
+  <text x="26" y="212" fill="#5a5a5a" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">T+ 00:00:42</text>
+  <text x="854" y="212" text-anchor="end" fill="#5a5a5a" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">28.5729° N / 80.6490° W</text>
+</svg>
